@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b64b93;
+}
+
+.contenedor_padre {
+  background-color: #fff;
+  width: 400px;
+  /* Un truco para centrar un contenedor utilizaremos margin left y right con el valor de auto*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.ancho_100 {
+  display: block;
+  width: 100%;
+}
+
+.ancho_49 {
+  display: inline-block;
+  width: 49%;
+}
+
+.ancho_50 {
+  display: inline-block;
+  width: 50%;
+}
+
+.margin_bottom15 {
+  margin-bottom: 15px;
+}
+.margin_right10 {
+  margin-right: 10px;
+}
+
+.text_center {
+  text-align: center;
+}
+/* Font family es la tipografia  */
+h1 {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 600;
+  color:#b64b93;
+}
+/* h1:hover{
+    color:green;
+} */
+
+.contenedor-control {
+  padding: 10px;
+}
+
+.contenedor-control label {
+  display: block;
+  font-family: "Roboto";
+  color: #000;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: 300;
+}
+
+.contenedor-control input,
+.contenedor-control textarea
+
+{
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  padding: 5px;
+  border: 1px solid #b64b93;
+  outline: none;
+}
+
+.contenedor-control input:focus {
+  outline: none;
+  border-bottom: 1px solid #737373;
+}
+
+.btn_enviar {
+  width: 100%;
+  background-color: #b64b93;
+  color: #fff;
+   padding: 5px;
+  font-family: "Roboto";
+  font-size: 15px;
+  cursor: pointer;
+}
